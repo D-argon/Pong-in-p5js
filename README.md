@@ -1,4 +1,4 @@
-# Pong-in-p5js
+# Pong-in-p5js v0.33
 First project using p5js.org (based on jvscript, html & css)
 
 heyo
