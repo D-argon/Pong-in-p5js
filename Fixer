@@ -1,0 +1,11 @@
+//Check if ball collides with paddle (Library p5.collide2d)
+function checkPaddleCollision(x,y) {
+  hit = collideRectCircle(x, y, paddleWidth, paddleHeight, posXBall, posYBall, radius);
+  if (hit) {
+    velXBall *= -1;
+    missEnemy += missDelta;
+    hitSound.play();
+  }
+}
+
+//Merge this code to the main by adding and changing characteristics
